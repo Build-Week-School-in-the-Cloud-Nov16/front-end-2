@@ -11,6 +11,7 @@ import './App.css';
 import FormContainer from "./signUpFormComponents/FormContainer"
 import Nav from "./components/Nav";
 import LoginContainer from "./components/LoginContainer";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
