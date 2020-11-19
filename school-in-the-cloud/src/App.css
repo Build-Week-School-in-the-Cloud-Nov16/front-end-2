@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.form {
+  width: 50%;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.cardStyling {
+  width: 50%;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.studentDashSearch {
+  display: flex;
+  justify-content: center;
+}
+
+.volunteerCard {
+  width: 50%;
+}
+
+.volunteerDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.volunteerHolder {
+  width: 100%;
+}
+
+.cardHolder {
+  display: flex;
+  justify-content: center;
+  
+}
