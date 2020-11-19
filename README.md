@@ -1,5 +1,3 @@
-# front-end-2
-
 # front-end
 
 Run `npm i`,
