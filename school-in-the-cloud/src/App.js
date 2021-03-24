@@ -25,13 +25,13 @@ function App() {
           <Nav />
           <LoginContainer /> 
         </Route>
-        <Route path="/sign-up">  
+        <Route exact path="/sign-up">  
           <Nav />
           <FormContainer/>
         </Route>
-        <PrivateRoute path="/admin" component={AdminDashboard}></PrivateRoute>
-        <PrivateRoute path="/volunteer" component={VolunteerDashboard}></PrivateRoute>
-        <PrivateRoute path="/student" component={StudentDashboard}></PrivateRoute>
+        <PrivateRoute exact path="/admin" component={AdminDashboard}></PrivateRoute>
+        <PrivateRoute exact path="/volunteer" component={VolunteerDashboard}></PrivateRoute>
+        <PrivateRoute exact path="/student" component={StudentDashboard}></PrivateRoute>
 
         <Route exact path='/edit-task/:id' render={() => (
           <EditTask />
